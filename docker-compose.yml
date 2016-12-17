@@ -10,37 +10,37 @@ volumes:
 services:
 
   # ELK
-#  s5r-elasticsearch:
-#    container_name: "s5r-elasticsearch"
-#    build: elasticsearch/
-#    ports:
-#      - "9200:9200"
-#      - "9300:9300"
-#    environment:
-#      ES_JAVA_OPTS: "-Xms1g -Xmx1g"
+  elasticsearch:
+    container_name: "elasticsearch"
+    build: elasticsearch/
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    environment:
+      ES_JAVA_OPTS: "-Xms1g -Xmx1g"
 #    networks:
 #      - network_s5r
-#
-#  s5r-logstash:
-#    container_name: "s5r-logstash"
-#    build: logstash/
-#    command: -f /etc/logstash/conf.d/
-#    volumes:
-#      - ./logstash/config:/etc/logstash/conf.d
-#    ports:
-#      - "5000:5000"
+
+  logstash:
+    container_name: "logstash"
+    build: logstash/
+    command: -f /etc/logstash/conf.d/
+    volumes:
+      - ./logstash/config:/etc/logstash/conf.d
+    ports:
+      - "5000:5000"
 #    networks:
 #      - network_s5r
 #    depends_on:
 #      - s5r-elasticsearch
-#
-#  s5r-kibana:
-#    container_name: "s5r-kibana"
-#    build: kibana/
-#    volumes:
-#      - ./kibana/config/:/opt/kibana/config/
-#    ports:
-#      - "5601:5601"
+
+  kibana:
+    container_name: "kibana"
+    build: kibana/
+    volumes:
+      - ./kibana/config/:/opt/kibana/config/
+    ports:
+      - "5601:5601"
 #    networks:
 #      - network_s5r
 #    depends_on:
@@ -55,8 +55,8 @@ services:
     ports:
       - 8500:8500
     #expose:
-    dns:
-      - 127.0.0.1
+#    dns:
+#      - 127.0.0.1
 
   s5r-rabbitmq:
     container_name: 's5r-rabbitmq'
