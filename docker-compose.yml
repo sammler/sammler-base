@@ -46,14 +46,14 @@ services:
 #    depends_on:
 #      - s5r-elasticsearch
 
-  s5r-consul:
-    container_name: 's5r-consul'
-    image: progrium/consul:latest
-    #command: -server -bootstrap -ui-dir /ui
-    restart: always
-    mem_limit: 128m
-    ports:
-      - 8500:8500
+#  s5r-consul:
+#    container_name: 's5r-consul'
+#    image: progrium/consul:latest
+#    #command: -server -bootstrap -ui-dir /ui
+#    restart: always
+#    mem_limit: 128m
+#    ports:
+#      - 8500:8500
     #expose:
 #    dns:
 #      - 127.0.0.1
