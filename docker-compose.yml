@@ -59,7 +59,6 @@ services:
 #      - 127.0.0.1
 
   s5r-rabbitmq:
-    container_name: 's5r-rabbitmq'
     image: rabbitmq:3.6.6-management
     ports:
       - "8080:15672"
