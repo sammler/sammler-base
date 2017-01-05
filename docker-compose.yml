@@ -11,7 +11,6 @@ services:
 
   # ELK
   elasticsearch:
-    container_name: "elasticsearch"
     build: elasticsearch/
     ports:
       - "9200:9200"
@@ -22,7 +21,6 @@ services:
 #      - network_s5r
 
   logstash:
-    container_name: "logstash"
     build: logstash/
     command: -f /etc/logstash/conf.d/
     volumes:
@@ -35,7 +33,6 @@ services:
 #      - s5r-elasticsearch
 
   kibana:
-    container_name: "kibana"
     build: kibana/
     volumes:
       - ./kibana/config/:/opt/kibana/config/
@@ -65,9 +62,10 @@ services:
       - "5672:5672"
 
   s5r-scheduler:
-    container_name: 's5r-scheduler'
     image: stefanwalther/sammler-scheduler:latest
     environment:
       - SAMMLER_RABBITMQ_URL=amqp://guest:guest@s5r-rabbitmq:5672
+    links:
+      - s5r-rabbitmq
 
 
