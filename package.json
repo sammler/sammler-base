@@ -3,7 +3,8 @@
   "version": "0.0.3",
   "description": "Base services for sammler.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "verb"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,28 @@
   "bugs": {
     "url": "https://github.com/sammler/sammler-base/issues"
   },
-  "homepage": "https://github.com/sammler/sammler-base#readme"
+  "homepage": "https://github.com/sammler/sammler-base#readme",
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "empty",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "sammler/sammler-rabbitmq"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    },
+    "reflinks": [
+      "verb",
+      "verb-readme-generator"
+    ]
+  }
 }
