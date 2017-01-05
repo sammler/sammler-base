@@ -1,6 +1,6 @@
 {
   "name": "sammler-base",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Base services for sammler.",
   "main": "index.js",
   "scripts": {
