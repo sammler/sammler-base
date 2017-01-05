@@ -1,1 +1,1 @@
-See docker-compose.yml for now.
+See [docker-compose.yml](docker-compose.yml) for now.
