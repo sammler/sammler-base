@@ -2,23 +2,26 @@
   "name": "sammler-base",
   "version": "0.0.6",
   "description": "Base services for sammler.",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "verb"
+  "keywords": [
+    "sammler"
+  ],
+  "homepage": "https://github.com/sammler/sammler-base#readme",
+  "bugs": {
+    "url": "https://github.com/sammler/sammler-base/issues"
   },
+  "license": "MIT",
+  "author": "Stefan Walther <swrqtch@gmail.com> (http://qliksite.io)",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/sammler/sammler-base.git"
   },
-  "keywords": [
-    "sammler"
-  ],
-  "author": "Stefan Walther <swrqtch@gmail.com> (http://qliksite.io)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sammler/sammler-base/issues"
+  "scripts": {
+    "docs": "verb",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/sammler/sammler-base#readme",
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11"
+  },
   "verb": {
     "run": true,
     "toc": false,
