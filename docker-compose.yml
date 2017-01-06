@@ -55,6 +55,13 @@ services:
 #    dns:
 #      - 127.0.0.1
 
+  # Data Storage
+  # (Let's keep it very simple for now)
+  s5r-mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+
   s5r-rabbitmq:
     image: rabbitmq:3.6.6-management
     ports:
