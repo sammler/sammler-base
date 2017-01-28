@@ -17,7 +17,9 @@
   },
   "scripts": {
     "docs": "verb",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dc-dev-up": "docker-compose --f=./docker-compose.dev.yml up --build",
+    "dc-dev-down": "docker-compose --f=./docker-compose.dev.yml down"
   },
   "devDependencies": {
     "gulp-format-md": "^0.1.11"
