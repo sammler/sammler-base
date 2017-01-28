@@ -27,7 +27,8 @@ services:
       - "9200:9200"
       - "9300:9300"
     environment:
-      ES_JAVA_OPTS: "-Xms1g -Xmx1g"
+      - ES_JAVA_OPTS="-Xms1g -Xmx1g"
+      - LS_HEAP_SIZE=512m
 #    networks:
 #      - network_s5r
 
