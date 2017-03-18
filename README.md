@@ -1,4 +1,6 @@
 # sammler-base
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/sammler/sammler-base.svg)](https://greenkeeper.io/)
 > Base services for sammler.
 
 ## Purpose
