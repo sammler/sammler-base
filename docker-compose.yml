@@ -15,7 +15,7 @@ services:
   # Some comment
   # --------------------------------------------------------------------------------------------------------------------
   portainer:
-    image: portainer/portainer
+    image: portainer/portainer:latest@sha256:7affc7f6d02ebceaa4e0cd137ef3c784629e5ebfa2354c4776337f8bc42664a4
     restart: always
     command: -d /data
     volumes:
