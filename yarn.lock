@@ -63,7 +63,7 @@ gfm-code-blocks@^0.3.0:
   dependencies:
     gfm-code-block-regex "^0.2.1"
 
-gulp-format-md@^0.1.11:
+gulp-format-md@0.1.11:
   version "0.1.11"
   resolved "https://registry.yarnpkg.com/gulp-format-md/-/gulp-format-md-0.1.11.tgz#fd11119a01a0f9b6dcefa3a758b5d559448937ee"
   dependencies:
