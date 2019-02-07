@@ -9,33 +9,13 @@ argparse@~0.1.15:
     underscore "~1.7.0"
     underscore.string "~2.4.0"
 
-array-slice@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/array-slice/-/array-slice-0.2.3.tgz#dd3cfb80ed7973a75117cdac69b0b99ec86186f5"
-
 autolinker@~0.15.0:
   version "0.15.3"
   resolved "https://registry.yarnpkg.com/autolinker/-/autolinker-0.15.3.tgz#342417d8f2f3461b14cf09088d5edf8791dc9832"
 
-buffer-shims@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/buffer-shims/-/buffer-shims-1.0.0.tgz#9978ce317388c649ad8793028c3477ef044a8b51"
-
 core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
-
-define-property@^0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/define-property/-/define-property-0.2.5.tgz#c35b1ef918ec3c990f9a5bc57be04aacec5c8116"
-  dependencies:
-    is-descriptor "^0.1.0"
-
-expand-range@^1.8.1:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/expand-range/-/expand-range-1.8.2.tgz#a299effd335fe2721ebae8e257ec79644fc85337"
-  dependencies:
-    fill-range "^2.1.0"
 
 extend-shallow@^2.0.1:
   version "2.0.1"
@@ -43,200 +23,131 @@ extend-shallow@^2.0.1:
   dependencies:
     is-extendable "^0.1.0"
 
-fill-range@^2.1.0:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/fill-range/-/fill-range-2.2.3.tgz#50b77dfd7e469bc7492470963699fe7a8485a723"
+fill-range@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/fill-range/-/fill-range-6.0.0.tgz#322a3c8b45991d18d38a03a849661bcc4a32ea63"
   dependencies:
-    is-number "^2.1.0"
-    isobject "^2.0.0"
-    randomatic "^1.1.3"
-    repeat-element "^1.1.2"
-    repeat-string "^1.5.2"
+    is-number "^7.0.0"
+    to-regex-range "^4.0.1"
 
-gfm-code-block-regex@^0.2.1:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/gfm-code-block-regex/-/gfm-code-block-regex-0.2.3.tgz#0b9fe68acf2c5a5022fd6d2d418a634f6e97c110"
+gfm-code-block-regex@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gfm-code-block-regex/-/gfm-code-block-regex-1.0.0.tgz#bb83c7d6284e6b5b72fa02198a58ac0d256215d2"
 
-gfm-code-blocks@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/gfm-code-blocks/-/gfm-code-blocks-0.3.0.tgz#111c18ccbb2029b846115090caa07d2fd90fc66f"
+gfm-code-blocks@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gfm-code-blocks/-/gfm-code-blocks-1.0.0.tgz#614d21059b844c6bbc9d588c089b25c4e8bccf0d"
   dependencies:
-    gfm-code-block-regex "^0.2.1"
+    gfm-code-block-regex "^1.0.0"
 
-gulp-format-md@0.1.11:
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/gulp-format-md/-/gulp-format-md-0.1.11.tgz#fd11119a01a0f9b6dcefa3a758b5d559448937ee"
+gulp-format-md@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/gulp-format-md/-/gulp-format-md-2.0.0.tgz#fee9adf8957749e49b934ac2a906150c82250778"
   dependencies:
-    extend-shallow "^2.0.1"
-    lazy-cache "^2.0.1"
-    pretty-remarkable "^0.3.10"
-    remarkable "^1.7.0"
-    sections "^0.1.9"
-    through2 "^2.0.1"
+    pretty-remarkable "^1.0.0"
+    remarkable "^1.7.1"
+    sections "^1.0.0"
+    through2 "^2.0.3"
 
-inherits@~2.0.1:
+inherits@~2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
-
-is-accessor-descriptor@^0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/is-accessor-descriptor/-/is-accessor-descriptor-0.1.6.tgz#a9e12cb3ae8d876727eeef3843f8a0897b5c98d6"
-  dependencies:
-    kind-of "^3.0.2"
-
-is-buffer@^1.0.2:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.4.tgz#cfc86ccd5dc5a52fa80489111c6920c457e2d98b"
-
-is-data-descriptor@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/is-data-descriptor/-/is-data-descriptor-0.1.4.tgz#0b5ee648388e2c860282e793f1856fec3f301b56"
-  dependencies:
-    kind-of "^3.0.2"
-
-is-descriptor@^0.1.0:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/is-descriptor/-/is-descriptor-0.1.4.tgz#c2cfa0d85099a90df94af5b7eb7ee1c7e1413186"
-  dependencies:
-    is-accessor-descriptor "^0.1.6"
-    is-data-descriptor "^0.1.4"
-    kind-of "^3.0.2"
-    lazy-cache "^1.0.3"
 
 is-extendable@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/is-extendable/-/is-extendable-0.1.1.tgz#62b110e289a471418e3ec36a617d472e301dfc89"
 
-is-number@^2.0.2, is-number@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/is-number/-/is-number-2.1.0.tgz#01fcbbb393463a548f2f466cce16dece49db908f"
-  dependencies:
-    kind-of "^3.0.2"
+is-number@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
 
-isarray@1.0.0, isarray@~1.0.0:
+isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
 
-isobject@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/isobject/-/isobject-2.1.0.tgz#f065561096a3f1da2ef46272f815c840d87e0c89"
+isobject@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+
+list-item@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/list-item/-/list-item-2.0.0.tgz#368e5bce05bcc6d0e64a766929fe58d366ddd6f2"
   dependencies:
-    isarray "1.0.0"
+    fill-range "^6.0.0"
+    is-number "^7.0.0"
 
-kind-of@^3.0.2:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.1.0.tgz#475d698a5e49ff5e53d14e3e732429dc8bf4cf47"
+markdown-utils@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-utils/-/markdown-utils-1.0.0.tgz#defc6e47ea097881af81043ddedea72c001b2cc8"
   dependencies:
-    is-buffer "^1.0.2"
+    is-number "^7.0.0"
+    list-item "^2.0.0"
 
-lazy-cache@^1.0.3:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
-
-lazy-cache@^2.0.1:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-2.0.2.tgz#b9190a4f913354694840859f8a8f7084d8822264"
+pretty-remarkable@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/pretty-remarkable/-/pretty-remarkable-1.0.0.tgz#7a6ea6c97497300dc7803e263d129b0219e901b1"
   dependencies:
-    set-getter "^0.1.0"
+    markdown-utils "^1.0.0"
 
-list-item@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/list-item/-/list-item-1.1.1.tgz#0c65d00e287cb663ccb3cb3849a77e89ec268a56"
+process-nextick-args@~2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.0.tgz#a37d732f4271b4ab1ad070d35508e8290788ffaa"
+
+readable-stream@~2.3.6:
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
   dependencies:
-    expand-range "^1.8.1"
-    extend-shallow "^2.0.1"
-    is-number "^2.1.0"
-    repeat-string "^1.5.2"
-
-markdown-utils@^0.7.3:
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/markdown-utils/-/markdown-utils-0.7.3.tgz#4c583a31e251d69b313aceb3802a4f5d1b0f1e76"
-  dependencies:
-    array-slice "^0.2.3"
-    is-number "^2.1.0"
-    list-item "^1.1.1"
-    to-gfm-code-block "^0.1.1"
-
-pretty-remarkable@^0.3.10:
-  version "0.3.10"
-  resolved "https://registry.yarnpkg.com/pretty-remarkable/-/pretty-remarkable-0.3.10.tgz#2da4c692ed8b9a260e0477480a0f794fe1c641c9"
-  dependencies:
-    lazy-cache "^2.0.1"
-    list-item "^1.1.1"
-    markdown-utils "^0.7.3"
-    repeat-string "^1.5.4"
-
-process-nextick-args@~1.0.6:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-1.0.7.tgz#150e20b756590ad3f91093f25a4f2ad8bff30ba3"
-
-randomatic@^1.1.3:
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/randomatic/-/randomatic-1.1.6.tgz#110dcabff397e9dcff7c0789ccc0a49adf1ec5bb"
-  dependencies:
-    is-number "^2.0.2"
-    kind-of "^3.0.2"
-
-readable-stream@^2.1.5:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.2.tgz#a9e6fec3c7dda85f8bb1b3ba7028604556fc825e"
-  dependencies:
-    buffer-shims "^1.0.0"
     core-util-is "~1.0.0"
-    inherits "~2.0.1"
+    inherits "~2.0.3"
     isarray "~1.0.0"
-    process-nextick-args "~1.0.6"
-    string_decoder "~0.10.x"
+    process-nextick-args "~2.0.0"
+    safe-buffer "~5.1.1"
+    string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
-remarkable@^1.7.0:
+remarkable@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/remarkable/-/remarkable-1.7.1.tgz#aaca4972100b66a642a63a1021ca4bac1be3bff6"
   dependencies:
     argparse "~0.1.15"
     autolinker "~0.15.0"
 
-repeat-element@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/repeat-element/-/repeat-element-1.1.2.tgz#ef089a178d1483baae4d93eb98b4f9e4e11d990a"
+safe-buffer@~5.1.0, safe-buffer@~5.1.1:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
 
-repeat-string@^1.5.2, repeat-string@^1.5.4:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
-
-sections@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/sections/-/sections-0.1.9.tgz#fc6e8423bea1c56ca1132835a5681dd73246dfc5"
+sections@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/sections/-/sections-1.0.0.tgz#db657f5a478b45d2a046d045c1aa792eb823c2c1"
   dependencies:
-    define-property "^0.2.5"
-    gfm-code-blocks "^0.3.0"
+    gfm-code-blocks "^1.0.0"
+    sort-by-value "^0.1.0"
 
-set-getter@^0.1.0:
+sort-by-value@^0.1.0:
   version "0.1.0"
-  resolved "https://registry.yarnpkg.com/set-getter/-/set-getter-0.1.0.tgz#d769c182c9d5a51f409145f2fba82e5e86e80376"
+  resolved "https://registry.yarnpkg.com/sort-by-value/-/sort-by-value-0.1.0.tgz#d07598927d43d425e51ffa3f6c0b91b708576ba7"
   dependencies:
-    to-object-path "^0.3.0"
+    extend-shallow "^2.0.1"
+    isobject "^3.0.0"
 
-string_decoder@~0.10.x:
-  version "0.10.31"
-  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
-
-through2@^2.0.1:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/through2/-/through2-2.0.3.tgz#0004569b37c7c74ba39c43f3ced78d1ad94140be"
+string_decoder@~1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8"
   dependencies:
-    readable-stream "^2.1.5"
+    safe-buffer "~5.1.0"
+
+through2@^2.0.3:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/through2/-/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"
+  dependencies:
+    readable-stream "~2.3.6"
     xtend "~4.0.1"
 
-to-gfm-code-block@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/to-gfm-code-block/-/to-gfm-code-block-0.1.1.tgz#25d045a5fae553189e9637b590900da732d8aa82"
-
-to-object-path@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/to-object-path/-/to-object-path-0.3.0.tgz#297588b7b0e7e0ac08e04e672f85c1f4999e17af"
+to-regex-range@^4.0.1:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/to-regex-range/-/to-regex-range-4.0.3.tgz#64dcfb33638ec86160eb1a8fe6937d7160fcd49a"
   dependencies:
-    kind-of "^3.0.2"
+    is-number "^7.0.0"
 
 underscore.string@~2.4.0:
   version "2.4.0"
