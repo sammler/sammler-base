@@ -22,7 +22,7 @@
     "dc-dev-down": "docker-compose --f=./docker-compose.dev.yml down"
   },
   "devDependencies": {
-    "gulp-format-md": "0.1.11"
+    "gulp-format-md": "2.0.0"
   },
   "verb": {
     "run": true,
